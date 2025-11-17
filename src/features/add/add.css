@@ -1,0 +1,33 @@
+.page.page-add {   
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.add-form { 
+    display: grid; 
+    gap: 16px; 
+    max-width: 520px; 
+    margin: 12px auto 0; 
+}
+.field { 
+    display: grid; 
+    gap: 8px; 
+}
+.form-actions { 
+    display: flex; 
+    gap: 10px; 
+    justify-content: flex-end; 
+    margin-top: 8px; 
+}
+.check { 
+    display: inline-flex; 
+    gap: 10px; 
+    align-items: center; 
+    white-space: nowrap; 
+}
+.nl-wrap { 
+    display: grid; 
+    gap: 8px; 
+    max-width: 720px; 
+    margin: 12px auto 0; 
+}

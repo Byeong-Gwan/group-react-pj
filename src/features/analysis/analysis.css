@@ -1,0 +1,30 @@
+.page.page-analysis { 
+    padding: 16px; 
+    display: grid; 
+    gap: 12px; 
+}
+.head .small { 
+    font-size: 13px; 
+}
+.muted { 
+    color: var(--muted); 
+}
+.list { 
+    display: grid; 
+    gap: 8px; 
+}
+.row { 
+    display: grid; 
+    grid-template-columns: 1fr auto; 
+    gap: 8px; 
+    align-items: center; 
+}
+.title { 
+    font-weight: 600; 
+}
+.amt { 
+    font-weight: 700; 
+}
+.actions { 
+    display: flex; gap: 8px; 
+}

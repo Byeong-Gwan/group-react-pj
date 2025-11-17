@@ -1,0 +1,40 @@
+.page.page-history { 
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.head { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+.toolbar { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+    align-items: center; 
+}
+.toolbar .import { 
+    display: inline-flex; 
+    gap: 8px; 
+    align-items: center; 
+    color: var(--muted); 
+}
+.list { 
+    display: grid; gap: 8px; 
+}
+.row {
+    display: grid; 
+    grid-template-columns: 1fr auto; 
+    gap: 8px; 
+    align-items: center; 
+}
+.title { 
+    font-weight: 600; 
+}
+.muted { 
+    color: var(--muted); 
+}
+.amt { 
+    font-weight: 700; 
+}
